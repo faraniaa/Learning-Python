@@ -118,9 +118,9 @@ a*2
 * range() : usually used for loop processes. We can use the range() in 3 ways (parameters). And it will look similar to Slicing data on a List
 * Multiple Value using List [ ] : using new variable to assign a list index
 * sort() : sorting a value from numerical or string
-#### Python Operators
-Operators are used to perform operations on variables and values.
-**Python Arithmatics Operation**
+### Python Operators
+Operators are used to perform operations on variables and values. </br>
+#### Python Arithmatics Operation
 Arithmetic operators are used with numeric values to perform common mathematical operations.
 * Addition (+)
 ``` print(x+y)``` 
@@ -135,28 +135,28 @@ Arithmetic operators are used with numeric values to perform common mathematical
 * Exponentiation (\**)
 ``` print(x**y)``` 
 * Floor Division (//)
-``` print(x//y)``` 
-**Python Assignment Operators**
-Assignment operators are used to assign values to variables. also we can using our variable as an operand.
-**Python Comparison Operators**
+``` print(x//y)``` </br>
+#### Python Assignment Operators
+Assignment operators are used to assign values to variables. also we can using our variable as an operand. </br>
+#### Python Comparison Operators
 Comparison operators are used to compare two values. This operators will return True or False
 * equal (==)
 * not equal (!=)
 * less than (<) and less than or equal to (<=)
-* greater than (>) and greater than or equal to (>=)
-**Python Logical Operators**
+* greater than (>) and greater than or equal to (>=) </br>
+#### Python Logical Operators
 Logical operators are used to combine conditional statements. also we known as BOOLEAN OPERATORS. So the return will be True or False
 * and ( Return True if both statements are true )
 * or ( Return True if one of statements is true )
-* not (Reverse the result)
-**Python Identity Operators**
+* not (Reverse the result) </br>
+#### Python Identity Operators
 Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object.
 * is ( Returns True if both variables are the same object )
-* is not (Returns True if both variables are not the same object)
-**Python Membership Operators**
+* is not (Returns True if both variables are not the same object) </br>
+#### Python Membership Operators
 Membership operators are used to test if a sequence is presented in an object.
 * in
-* not in
+* not in </br>
 
 ### Conditional Expression
 -----
