@@ -57,8 +57,15 @@ Method :
 Method :
 * replace() : This method can return a new string in the condition that the substring has been replaced with the entered parameter.
 #### String Check
+Method :
 * isupper() : This function will return True if all the letters in the string is uppercase, and will return False if there is only one lowercase letter in in that string.
-* 
+* islower() : This function is opposite of isupper() method, this method will return value True if all letters in the string are lowercase, and will return the value False if there is only one uppercase letter in the string.
+* isalpha() : This method will return True if all characters in string are letters of the alphabet. Otherwise it will return False.
+* isalnum() : This method will return True if the character in the string is alphanumeric, only letters or only numbers or both. If not then will returns False value.
+* isdecimal() : This method will return True if the characters in the string are only contains numeric, otherwise it returns False.
+* isspace() : This method will return True if the string contains only whitespace, such as space, tab, newline or other whitespace characters. If not then will return False.
+* istitle() : This method will return True if the string contains capital letters on each word and then followed by a lowercase letter, otherwise it will return the value false.
+
 ### Formatting String
 -----
 In this section, we can learn 5 formatting string in python :
