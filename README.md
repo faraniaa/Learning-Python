@@ -44,30 +44,21 @@ Convert character/String from lowercase to uppercase. If the letter first big, t
 The opposite of upper() . Used to convert characters/strings from letters uppercase to lowercase. </br>
 #### A Beginning and an End
 Method : </br>
-* rstrip()
----
-This method will remove the whitespace to the right of the string or the end strings.
-* lstrip()
------
-Useful for removing whitespace on the left or the beginning of a string.
-* strip()
------
-Will remove whitespace at the beginning or end of the string.
-* startswith()
------
-This method will return True if the string starts with the word the specified prefix we want, otherwise it returns False.
-* endswith()
------
-As opposed to startswith() , this method returns True if the string ends with the specified suffix we want, otherwise it will returns False value. With this method, you can perform string comparisons in the form of a beginning or a suffix only, so there is no need to separate the strings and use the equal to operator (==).
+* rstrip() : This method will remove the whitespace to the right of the string or the end strings.
+* lstrip() : Useful for removing whitespace on the left or the beginning of a string.
+* strip() : Will remove whitespace at the beginning or end of the string.
+* startswith() : This method will return True if the string starts with the word the specified prefix we want, otherwise it returns False.
+* endswith() : As opposed to startswith() , this method returns True if the string ends with the specified suffix we want, otherwise it will returns False value. With this method, you can perform string comparisons in the form of a beginning or a suffix only, so there is no need to separate the strings and use the equal to operator (==).
 #### Splitting and Concatenating String
 Method :
-* join()
------
-The method used to concatenate a number of string. The string with the join() operation will be inserted between the string in the parameter.
-* split()
------
-Method that splits substrings based on a specified delimiter (default is whitespace, tab, or newline).
-####
+* join() : The method used to concatenate a number of string. The string with the join() operation will be inserted between the string in the parameter.
+* split() : Method that splits substrings based on a specified delimiter (default is whitespace, tab, or newline).
+#### Replacing String Elements
+Method :
+* replace() : This method can return a new string in the condition that the substring has been replaced with the entered parameter.
+#### String Check
+* isupper() : This function will return True if all the letters in the string is uppercase, and will return False if there is only one lowercase letter in in that string.
+* 
 ### Formatting String
 -----
 In this section, we can learn 5 formatting string in python :
