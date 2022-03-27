@@ -14,7 +14,7 @@ Using python, we can easily convert data into different type. In python, there a
 Python automatically converts one data type to another data type. This process doesn’t need any user involvement. Implicit type conversion can’t work at string data type.
 2. Explicit Type Conversion </br>
 Users convert the data tyoe of an object to required data type, we can use the predefined functions like int(), float(), str(), etc. to perform explicit type conversion. </br>
-This type of conversion is also called typecasting, because the user casts (changes) the data type of the objects. </br> </br>
+This type of conversion is also called typecasting, because the user casts (changes) the data type of the objects. </br>
 Here's the syntax :
 ``` 
 <required_datatype>(expression)
@@ -34,21 +34,21 @@ In this section, we can learn 5 formatting string in python :
 \- The number of characters must be less than or equal to the zfill value </br>
 2. Text align right </br>
 \- This method will add a space to the string to make it match </br>
-\- The parameter is an integer which is the overall length of the text (not the number of spaces added) </br> </br>
+\- The parameter is an integer which is the overall length of the text (not the number of spaces added) </br>
 Here's how to use text align right on Python </br>
 ``` 
 text.rjust()
 ``` 
 3. Text align left </br>
 \- This method will add a space to the string to make it match </br>
-\- The parameter is an integer which is the overall length of the text (not the number of spaces added) </br> </br>
+\- The parameter is an integer which is the overall length of the text (not the number of spaces added) </br>
 Here's how to use text align left on Python </br>
 ``` 
 text.ljust()
 ``` 
 4. Text align center </br>
 \- This method will add a space to the string to make it match </br>
-\- The parameter is an integer which is the overall length of the text (not the number of spaces added) </br> </br>
+\- The parameter is an integer which is the overall length of the text (not the number of spaces added) </br>
 Here's how to use text align left on Python </br>
 ``` 
 text.center()
