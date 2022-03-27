@@ -44,27 +44,27 @@ Convert character/String from lowercase to uppercase. If the letter first big, t
 The opposite of upper() . Used to convert characters/strings from letters uppercase to lowercase. </br>
 #### A Beginning and an End
 Method : </br>
-##### rstrip()
------
+* rstrip()
+---
 This method will remove the whitespace to the right of the string or the end strings.
-##### lstrip()
+* lstrip()
 -----
 Useful for removing whitespace on the left or the beginning of a string.
-##### strip()
+* strip()
 -----
 Will remove whitespace at the beginning or end of the string.
-##### startswith()
+* startswith()
 -----
 This method will return True if the string starts with the word the specified prefix we want, otherwise it returns False.
-##### endswith()
+* endswith()
 -----
 As opposed to startswith() , this method returns True if the string ends with the specified suffix we want, otherwise it will returns False value. With this method, you can perform string comparisons in the form of a beginning or a suffix only, so there is no need to separate the strings and use the equal to operator (==).
 #### Splitting and Concatenating String
 Method :
-##### join()
+* join()
 -----
 The method used to concatenate a number of string. The string with the join() operation will be inserted between the string in the parameter.
-##### split()
+* split()
 -----
 Method that splits substrings based on a specified delimiter (default is whitespace, tab, or newline).
 ####
