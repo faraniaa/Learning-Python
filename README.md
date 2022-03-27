@@ -21,7 +21,20 @@ Here's the syntax :
 ``` 
 ### Input and Output
 -----
-
+1. Input Function</br>
+* The input() function is used to retrieve numeric data and retrieve text.
+* In Python, it's enough to just use the input() function, because the raw_input() function is already combined there. </br>
+#### How to Take Input from Keyboard
+``` 
+variable_name = input(" ")
+``` 
+2. Output Function
+An output function is a function that an optimization function calls at each iteration of its algorithm. </br>
+#### How to Take Input from Keyboard
+To display text output, we use the print() function
+``` 
+print()
+``` 
 ### Transformation
 -----
 
