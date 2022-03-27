@@ -101,3 +101,5 @@ Here's how to use string literals on Python </br>
 ``` 
 A = ("List to buy : \n \-Soy Milk \n \-Nuggets)
 ``` 
+### Operation (Operator & Operand)
+-----
