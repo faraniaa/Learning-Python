@@ -101,5 +101,93 @@ Here's how to use string literals on Python </br>
 ``` 
 A = ("List to buy : \n \-Soy Milk \n \-Nuggets)
 ``` 
-### Operation (Operator & Operand)
+### Operation
 -----
+#### Operation in List, Set, and String
+* len() : will returns the length of an object
+* min() : return the lowest value
+* max() : return the highest value
+* count() : data occurens
+* Merging (+) and replication (*)
+``` 
+a = [1, 2, 3]
+b = ['p', 'y', 't', 'h', 'o', 'n']
+a+b
+a*2
+``` 
+* range() : usually used for loop processes. We can use the range() in 3 ways (parameters). And it will look similar to Slicing data on a List
+* Multiple Value using List [ ] : using new variable to assign a list index
+* sort() : sorting a value from numerical or string
+#### Python Operators
+Operators are used to perform operations on variables and values.
+**Python Arithmatics Operation**
+Arithmetic operators are used with numeric values to perform common mathematical operations.
+* Addition (+)
+``` print(x+y)``` 
+* Substraction (-)
+``` print(x-y)``` 
+* Multiplication (*)
+``` print(x*y)``` 
+* Division (/)
+``` print(x/y)``` 
+* Modulus (%)
+``` print(x%y)``` 
+* Exponentiation (\**)
+``` print(x**y)``` 
+* Floor Division (//)
+``` print(x//y)``` 
+**Python Assignment Operators**
+Assignment operators are used to assign values to variables. also we can using our variable as an operand.
+**Python Comparison Operators**
+Comparison operators are used to compare two values. This operators will return True or False
+* equal (==)
+* not equal (!=)
+* less than (<) and less than or equal to (<=)
+* greater than (>) and greater than or equal to (>=)
+**Python Logical Operators**
+Logical operators are used to combine conditional statements. also we known as BOOLEAN OPERATORS. So the return will be True or False
+* and ( Return True if both statements are true )
+* or ( Return True if one of statements is true )
+* not (Reverse the result)
+**Python Identity Operators**
+Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object.
+* is ( Returns True if both variables are the same object )
+* is not (Returns True if both variables are not the same object)
+**Python Membership Operators**
+Membership operators are used to test if a sequence is presented in an object.
+* in
+* not in
+
+### Conditional Expression
+-----
+#### if Statement
+There is only one condition or expression, where if the condition is True , it will return the specified statement or value or output.</br>
+In its simplest form, it looks like this:
+```
+if <expr>: 
+  <statement>
+```
+#### else Statement
+There are two conditions, where if the first condition is True, it will return the specified value or output in that condition. and if the value is False it will output another value or find another alternative.</br>
+In its simplest form, it looks like this:
+```
+if <expr>: 
+  <statement>
+else :
+  <statement2>
+```
+#### elif Statement
+There are more than two conditions or alternatives, the statement will be executed if one of the conditions is True. If it does not get a True value then it will go to the last option which is in else. </br>
+In its simplest form, it looks like this:
+```
+if <expr>:
+    <statement>
+elif <expr2>:
+    <statement2>
+elif <expr3>:
+    <statement3>
+........
+else:
+    <statement_n>
+```
+
